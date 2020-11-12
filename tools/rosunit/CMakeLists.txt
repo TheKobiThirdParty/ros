@@ -12,7 +12,3 @@ catkin_install_python(PROGRAMS
   scripts/summarize_results.py
   scripts/test_results_dir.py
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/scripts)
-
-if(CATKIN_ENABLE_TESTING)
-  catkin_add_nosetests(test)
-endif()
